@@ -2,12 +2,21 @@ package modelo;
 
 public class Producto {
 
+    private int idProducto;
     private String nombre;
     private String marca;
     private String descripcion;
     private int piezasExistentes;
     private double precioCompra;
     private double precioVenta;
+
+    public int getIdProducto() {
+        return idProducto;
+    }
+
+    public void setIdProducto(int idProducto) {
+        this.idProducto = idProducto;
+    }
 
     public String getNombre() {
         return nombre;
@@ -56,6 +65,5 @@ public class Producto {
     public void setPrecioVenta(double precioVenta) {
         this.precioVenta = precioVenta;
     }
-    
 
 }

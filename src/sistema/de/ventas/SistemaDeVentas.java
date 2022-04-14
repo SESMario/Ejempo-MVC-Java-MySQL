@@ -14,6 +14,7 @@ public class SistemaDeVentas {
         
         CtrlProductos ctrlProductos =new CtrlProductos(prod, consProd, vipro);
         ctrlProductos.iniciar();
+        ctrlProductos.llenarTabla(vipro.jtbListaProductos);
         vipro.setVisible(true);
     }
     
